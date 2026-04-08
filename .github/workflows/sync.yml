@@ -33,7 +33,18 @@ jobs:
     - name: Run script
       run: python ../main.py
       working-directory: ./rule/
+    - name: Check rule changes
+      id: diff
+      run: |
+        skip=false
+        if git fetch origin release; then
+          mkdir -p current-release
+          git archive --format=tar origin/release | tar -xf - -C current-release
+          diff -qr ./rule ./current-release >/dev/null && skip=true
+        fi
+        echo "skip=$skip" >> $GITHUB_OUTPUT
     - name: Publish rule files
+      if: steps.diff.outputs.skip != 'true'
       run: |
         mkdir -p publish
         cp ./rule/*.json ./rule/*.srs ./publish/
