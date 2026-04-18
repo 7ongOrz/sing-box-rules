@@ -49,10 +49,9 @@ jobs:
         mkdir -p publish
         cp ./rule/*.json ./rule/*.srs ./publish/
         cd publish
-        git init
+        git init -b release
         git config --local user.name "github-actions[bot]"
         git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
-        git branch -M release
         git add .
         git commit -m "Update rules"
         git remote add origin "https://${{ github.actor }}:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git"
