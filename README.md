@@ -4,6 +4,14 @@ Derived from https://github.com/Toperlock/sing-box-geosite
 
 在links.txt添加规则集，自动生成 sing-box Source Format。fork后自己添加想要转换的规则集。生成结果发布到 `release` 分支。
 
+`links.txt` 每行使用 `规则名称 URL`，以空白分隔，规则名称不带扩展名。例如：
+
+```text
+OpenAI https://magicrule.pages.dev/data/_shared/artifacts/OpenAI_rules_194f9925afa57744.list
+```
+
+输出为 `OpenAI.json` 和 `OpenAI.srs`，不受上游文件名影响。空行及以 `#` 开头的注释行会被忽略。
+
 仓库 Settings ----> Actions ----> General ----> Workflow permissions ----> Read and write permissions 勾选上
 
 规则集源文件写法eg:

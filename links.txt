@@ -1,18 +1,17 @@
-https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Direct/Direct.list
-https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Advertising/Advertising.list
-https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Bahamut/Bahamut.list
-https://raw.githubusercontent.com/7ongOrz/QuantumultX/main/Rule/Emby.list
-https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/GlobalMedia/GlobalMedia.list
-https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/BiliBili/BiliBili.list
-https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Apple/Apple.list
-https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Game/Game.list
-https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Microsoft/Microsoft.list
-https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/OpenAI/OpenAI.list
-https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Gemini/Gemini.list
-https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Claude/Claude.list
-https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Anthropic/Anthropic.list
-https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Oracle/Oracle.list
-https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Telegram/Telegram.list
-https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Global/Global.list
-https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/China/China.list
-https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/ChinaDNS/ChinaDNS.list
+Direct https://magicrule.pages.dev/data/_shared/artifacts/Direct_rules_5f402d63e48a2f60.list
+Advertising https://magicrule.pages.dev/data/_shared/artifacts/Advertising_rules_1cf7e3cc4c64d6c0.list
+Bahamut https://magicrule.pages.dev/data/_shared/artifacts/Bahamut_rules_d1d86af8b250171b.list
+Emby https://raw.githubusercontent.com/7ongOrz/QuantumultX/main/Rule/Emby.list
+GlobalMedia https://magicrule.pages.dev/data/_shared/artifacts/GlobalMedia_rules_7a791c748d79ecb2.list
+BiliBili https://magicrule.pages.dev/data/_shared/artifacts/BiliBili_rules_eaa7f3f129f365c0.list
+Apple https://magicrule.pages.dev/data/_shared/artifacts/Apple_rules_60fc94eb42cdb5a8.list
+Game https://magicrule.pages.dev/data/_shared/artifacts/Game_rules_d4f810f8d16e80cb.list
+Microsoft https://magicrule.pages.dev/data/_shared/artifacts/Microsoft_rules_de644bdb97d4d9ff.list
+OpenAI https://magicrule.pages.dev/data/_shared/artifacts/OpenAI_rules_194f9925afa57744.list
+Gemini https://magicrule.pages.dev/data/_shared/artifacts/Gemini_rules_636eeb64c51e7ee6.list
+Anthropic https://magicrule.pages.dev/data/_shared/artifacts/Anthropic_rules_c755bfcadd066598.list
+Oracle https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Oracle/Oracle.list
+Telegram https://magicrule.pages.dev/data/_shared/artifacts/Telegram_rules_d7c1725f903c116d.list
+Global https://magicrule.pages.dev/data/_shared/artifacts/Global_rules_fb0549b545a82f3f.list
+China https://magicrule.pages.dev/data/_shared/artifacts/China_rules_25ebfc04af1afb97.list
+ChinaDNS https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/ChinaDNS/ChinaDNS.list
